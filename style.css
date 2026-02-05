@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+input{
+    list-style: none;
+    border: 2px solid rgb(44,107,236);
+    border-radius: 4px;
+    padding: 5px;
+    width: 77%;
+    margin-bottom: 30px;
+}
+input:focus{
+    outline: none;
+}
+body{
+    background-color: rgb(64, 64, 231);
+}
+
+.blog{
+    max-width: 30%;
+    position: relative;
+    left: 30%;
+    top: 150px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+#main-btn{
+    border-radius: 4px;
+    padding: 6px 15px;
+    background-color: rgb(44,107,236);
+    border: none;
+    color: white;
+}
+.remove-cards{
+    width: 100%;
+    padding: 10px 5px;
+    background-color: rgb(197,225,229);
+    border: 1px solid rgb(181,190,191);
+    border-radius: 5px;
+    margin: 10px 0 ;
+    display: flex;
+    justify-content: space-between;
+}
+.remove-cards button{
+    padding: 10px;
+    background-color: rgb(29,27,163);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
